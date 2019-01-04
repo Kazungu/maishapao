@@ -38,14 +38,3 @@
   });
 
 })(jQuery); // End of use strict
-/*$(document).ready(function() {
-  $('#dataTable').DataTable( {
-      dom: 'Bfrtip',
-      buttons: [
-          'copy', 'csv', 'excel', 'pdf', 'print'
-      ]
-  } );
-} );*/
-$(document).ready(function() {
-  $('#dataTable').DataTable();
-});
